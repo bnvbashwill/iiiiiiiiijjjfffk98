@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <title>BNV_ɓãshwïll | Free Fire Diamond Top Up - Instant & Cheap</title>
+    <meta name="description" content="Buy Free Fire diamonds instantly at cheapest prices. Safe, fast Nigerian top-up service. Get bonus diamonds now!">
+    <meta name="keywords" content="Free Fire diamonds, Free Fire top up, buy Free Fire diamonds, Garena Free Fire, diamond top up Nigeria, cheap diamonds FF">
+    
+    <!-- Social -->
+    <meta property="og:title" content="BNV_ɓãshwïll - Free Fire Diamond Top Up">
+    <meta property="og:description" content="Instant Free Fire diamond top-up at best prices. Safe, fast & reliable.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background-color: #0a0a0f;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #1a1a2e;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff6b35;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+        
+        .logo {
+            color: #ff6b35;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            color: #ff6b35;
+            font-size: 32px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        
+        .hero p {
+            color: #cccccc;
+            font-size: 16px;
+            max-width: 600px;
+            margin: 0 auto 25px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #ff6b35;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            background-color: #ff8c42;
+        }
+        
+        .notice-box {
+            background: #1a1a2e;
+            border: 2px solid #f7c600;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        .notice-box h3 {
+            color: #f7c600;
+            margin-bottom: 10px;
+        }
+        
+        .notice-box p {
+            color: #aaa;
+            font-size: 14px;
+        }
+        
+        .whatsapp-btn {
+            display: inline-block;
+            background: #25d366;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .topup-section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            color: #f7c600;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        
+        .packages {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .package {
+            background-color: #1a1a2e;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .package:hover {
+            border-color: #ff6b35;
+            transform: translateY(-5px);
+        }
+        
+        .package.selected {
+            border-color: #f7c600;
+            background-color: #2a2a3e;
+        }
+        
+        .diamond-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        
+        .amount {
+            color: #f7c600;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .bonus {
+            color: #4ade80;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .price {
+            font-size: 28px;
+            color: #ff6b35;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .naira-price {
+            font-size: 16px;
+            color: #aaa;
+            margin-bottom: 15px;
+        }
+        
+        .select-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: transparent;
+            border: 2px solid #ff6b35;
+            color: #ff6b35;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: all 0.3s;
+        }
+        
+        .package:hover .select-btn,
+        .package.selected .select-btn {
+            background-color: #ff6b35;
+            color: white;
+        }
+        
+        .order-form {
+            background: #1a1a2e;
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            color: #ff6b35;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #0a0a0f;
+            border: 2px solid #333;
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        input[type="text"]:focus {
+            border-color: #ff6b35;
+            outline: none;
+        }
+        
+        .payment-info {
+            background: #0f0f1a;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .payment-info h4 {
+            color: #f7c600;
+            margin-bottom: 15px;
+        }
+        
+        .bank-details {
+            background: #1a1a2e;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 14px;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: #25d366;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        
+        .submit-btn:hover {
+            background-color: #128c7e;
+        }
+        
+        .features {
+            background-color: #0f0f1a;
+            padding: 40px 20px;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        
+        .feature h3 {
+            color: #f7c600;
+            margin-bottom: 10px;
+        }
+        
+        .feature p {
+            color: #aaa;
+            font-size: 14px;
+        }
+        
+        .reviews {
+            background: #1a1a2e;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .review-card {
+            background: #0a0a0f;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            max-width: 300px;
+            display: inline-block;
+            border: 1px solid #333;
+        }
+        
+        .stars {
+            color: #f7c600;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .review-text {
+            color: #aaa;
+            font-style: italic;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        .reviewer {
+            color: #ff6b35;
+            font-weight: bold;
+        }
+        
+        footer {
+            background-color: #1a1a2e;
+            padding: 30px 20px;
+            text-align: center;
+            border-top: 2px solid #ff6b35;
+        }
+        
+        .footer-logo {
+            color: #ff6b35;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .social-links {
+            margin: 15px 0;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        
+        footer p {
+            color: #666;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        
+        .alert {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #1a1a2e;
+            border-left: 4px solid #ff6b35;
+            padding: 15px 20px;
+            border-radius: 5px;
+            display: none;
+            max-width: 300px;
+            z-index: 1000;
+        }
+        
+        .alert.show {
+            display: block;
+        }
+        
+        .alert-title {
+            color: #ff6b35;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 24px; }
+            .packages { grid-template-columns: 1fr; }
+            .price { font-size: 24px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">BNV_ɓãshwïll</div>
+    </header>
+
+    <section class="hero">
+        <h1>Free Fire Diamond Top Up</h1>
+        <p>Get diamonds instantly at the best prices in Nigeria. Safe, fast, and reliable service.</p>
+        <a href="#order" class="btn">Order Now</a>
+    </section>
+
+    <div class="notice-box">
+        <h3>📱 How to Order</h3>
+        <p>1. Select package below<br>
+        2. Fill your Player ID & Server ID<br>
+        3. Pay to bank account<br>
+        4. Diamonds delivered in 2-5 minutes!</p>
+        <a href="https://wa.me/234XXXXXXXXXX" class="whatsapp-btn" id="whatsappLink">💬 Chat on WhatsApp</a>
+    </div>
+
+    <section class="topup-section" id="order">
+        <h2 class="section-title">Select Package</h2>
+        
+        <div class="packages">
+            <div class="package" onclick="selectPackage(this, 100, 3000)">
+                <div class="diamond-icon">💎</div>
+                <div class="amount">100 Diamonds</div>
+                <div class="bonus">+10 Bonus</div>
+                <div class="price">₦3,000</div>
+                <button class="select-btn">Select</button>
+            </div>
+            
+            <div class="package" onclick="selectPackage(this, 310, 7500)">
+                <div class="diamond-icon">💎</div>
+                <div class="amount">310 Diamonds</div>
+                <div class="bonus">+31 Bonus</div>
+                <div class="price">₦7,500</div>
+                <button class="select-btn">Select</button>
+            </div>
+            
+            <div class="package" onclick="selectPackage(this, 520, 12000)">
+                <div class="diamond-icon">💎</div>
+                <div class="amount">520 Diamonds</div>
+                <div class="bonus">+52 Bonus</div>
+                <div class="price">₦12,000</div>
+                <button class="select-btn">Select</button>
+            </div>
+            
+            <div class="package" onclick="selectPackage(this, 1060, 22000)">
+                <div class="diamond-icon">💎</div>
+                <div class="amount">1,060 Diamonds</div>
+                <div class="bonus">+106 Bonus</div>
+                <div class="price">₦22,000</div>
+                <button class="select-btn">Select</button>
+            </div>
+            
+            <div class="package" onclick="selectPackage(this, 2180, 45000)">
+                <div class="diamond-icon">💎</div>
+                <div class="amount">2,180 Diamonds</div>
+                <div class="bonus">+218 Bonus</div>
+                <div class="price">₦45,000</div>
+                <button class="select-btn">Select</button>
+            </div>
+            
+            <div class="package" onclick="selectPackage(this, 5600, 110000)">
+                <div class="diamond-icon">💎</div>
+                <div class="amount">5,600 Diamonds</div>
+                <div class="bonus">+560 Bonus</div>
+                <div class="price">₦110,000</div>
+                <button class="select-btn">Select</button>
+            </div>
+        </div>
+
+        <div class="order-form">
+            <h3 style="color: #f7c600; text-align: center; margin-bottom: 20px;">Complete Your Order</h3>
+            
+            <div class="input-group">
+                <label for="playerId">Player ID</label>
+                <input type="text" id="playerId" placeholder="Enter your Free Fire Player ID">
+            </div>
+            
+            <div class="input-group">
+                <label for="serverId">Server ID</label>
+                <input type="text" id="serverId" placeholder="Enter your Server ID">
+            </div>
+            
+            <div class="input-group">
+                <label for="package">Selected Package</label>
+                <input type="text" id="selectedPackage" placeholder="Click a package above" readonly style="background: #2a2a3e;">
+            </div>
+
+            <div class="payment-info">
+                <h4>💳 Bank Transfer Payment</h4>
+                <p style="color: #aaa; font-size: 14px; margin-bottom: 15px;">Send payment to:</p>
+                
+                <div class="bank-details">
+                    <strong>Bank:</strong> [YOUR BANK NAME]<br>
+                    <strong>Account Name:</strong> [YOUR NAME]<br>
+                    <strong>Account Number:</strong> [YOUR ACCOUNT NUMBER]
+                </div>
+                
+                <p style="color: #f7c600; font-size: 12px; margin-top: 10px;">
+                    ⚠️ Send screenshot after payment!
+                </p>
+            </div>
+
+            <button class="submit-btn" onclick="submitOrder()">
+                Submit Order
+            </button>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2 class="section-title">Customer Reviews</h2>
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Super fast! Got my diamonds in 2 minutes. Trusted seller 👍"</p>
+            <span class="reviewer">- Alex M.</span>
+        </div>
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Cheaper than buying in game. This is my 3rd time buying!"</p>
+            <span class="reviewer">- Sarah K.</span>
+        </div>
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Legit and reliable. Saved me lots of money 💎"</p>
+            <span class="reviewer">- Mike R.</span>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">Why Choose Us</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>Instant Delivery</h3>
+                <p>Diamonds in your account within 2-5 minutes</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <h3>100% Safe</h3>
+                <p>No ban risk, official top-up method</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💰</div>
+                <h3>Best Prices</h3>
+                <p>Cheaper than in-game store</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📞</div>
+                <h3>24/7 Support</h3>
+                <p>WhatsApp support always available</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">BNV_ɓãshwïll</div>
+        <div class="social-links">
+            <a href="https://wa.me/234XXXXXXXXXX" title="WhatsApp">💬</a>
+            <a href="#" title="Facebook">📘</a>
+            <a href="#" title="Instagram">📷</a>
+            <a href="#" title="TikTok">🎵</a>
+        </div>
+        <p>Fast & Reliable Free Fire Diamond Top Up Service</p>
+        <p>&copy; 2026 BNV_ɓãshwïll. Not affiliated with Garena.</p>
+    </footer>
+
+    <div class="alert" id="alert">
+        <div class="alert-title" id="alertTitle">Title</div>
+        <div id="alertText">Message</div>
+    </div>
+
+    <script>
+        var selectedDiamonds = null;
+        var selectedPrice = null;
+
+        function selectPackage(element, diamonds, price) {
+            // Remove selected from all
+            var packages = document.getElementsByClassName('package');
+            for (var i = 0; i < packages.length; i++) {
+                packages[i].classList.remove('selected');
+            }
+            
+            // Add to clicked
+            element.classList.add('selected');
+            selectedDiamonds = diamonds;
+            selectedPrice = price;
+            
+            // Update form
+            document.getElementById('selectedPackage').value = diamonds + ' Diamonds - ₦' + price;
+            
+            showAlert('Selected', diamonds + ' Diamonds - ₦' + price);
+        }
+
+        function submitOrder() {
+            var playerId = document.getElementById('playerId').value.trim();
+            var serverId = document.getElementById('serverId').value.trim();
+            var packageSelected = document.getElementById('selectedPackage').value;
+            
+            if (!playerId || !serverId) {
+                showAlert('Error', 'Please enter Player ID and Server ID');
+                return;
+            }
+            
+            if (!selectedDiamonds) {
+                showAlert('Error', 'Please select a package above');
+                return;
+            }
+            
+            // Create WhatsApp message
+            var message = 'Hello! I want to buy Free Fire diamonds:%0A%0A' +
+                         'Player ID: ' + playerId + '%0A' +
+                         'Server ID: ' + serverId + '%0A' +
+                         'Package: ' + selectedDiamonds + ' Diamonds%0A' +
+                         'Price: ₦' + selectedPrice + '%0A%0A' +
+                         'I have made the payment. Here is my screenshot:';
+            
+            // Open WhatsApp
+            var whatsappUrl = 'https://wa.me/234XXXXXXXXXX?text=' + message;
+            window.open(whatsappUrl, '_blank');
+            
+            showAlert('Redirecting...', 'Opening WhatsApp to complete your order!');
+        }
+
+        function showAlert(title, text) {
+            var alert = document.getElementById('alert');
+            document.getElementById('alertTitle').innerText = title;
+            document.getElementById('alertText').innerText = text;
+            alert.classList.add('show');
+            
+            setTimeout(function() {
+                alert.classList.remove('show');
+          
